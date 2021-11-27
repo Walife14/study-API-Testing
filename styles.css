@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(44, 44, 44);
+}
+
+header {
+    font-size: 32px;
+    text-align: center;
+    margin: 25px 0;
+}
+
+.userContainer {
+    padding: 10px;
+    width: 1200px;
+    margin: 10px auto;
+    display: flex;
+    background: #d2d2d2;
+}
+.thumbnail {
+}
+.info-container {
+    flex: 1;
+    margin: 0 0 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.name {
+    font-size: 22px;
+}
+.email, .age {
+    font-size: 16px;
+}
+
+.button-container {
+    text-align: center;
+    margin: 50px 0;
+}
+#loadNew {
+    display: inline;
+    font-size: 24px;
+    border: 1px solid #000;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#loadNew:hover {
+    background: darkgreen;
+}
+#loadNew:active {
+    background: green;
+}
